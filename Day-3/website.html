@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce Product Listing</title>
+  <link rel="stylesheet" href="website.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header class="header">
+    <div class="logo">
+      <!-- Simple logo: White Cat Outline (using a placeholder for simplicity) -->
+      <img src="./cat.png" alt="Logo" class="logo-image">
+      <span class="logo-text">WhiteCat</span>
+    </div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search for products..." class="search-input">
+      <button class="search-button">Search</button>
+    </div>
+    <div class="cart">
+      <!-- Shopping cart icon -->
+      <img src="./cat.png" alt="Cart" class="cart-icon">
+    </div>
+  </header>
+
+  <!-- Navigation Menu -->
+  <nav class="nav-menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Categories</a></li>
+      <li><a href="#">Deals</a></li>
+      <li><a href="#">Best Sellers</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content Section -->
+  <main class="main-content">
+    <!-- Filter Sidebar -->
+    <aside class="filter-sidebar">
+      <h3>Filters</h3>
+      <div class="filter-group">
+        <h4>Category</h4>
+        <label><input type="checkbox" value="Electronics"> Electronics</label>
+        <label><input type="checkbox" value="Fashion"> Fashion</label>
+        <label><input type="checkbox" value="Home"> Home</label>
+      </div>
+      <div class="filter-group">
+        <h4>Price</h4>
+        <label><input type="radio" name="price" value="low-to-high"> Low to High</label>
+        <label><input type="radio" name="price" value="high-to-low"> High to Low</label>
+      </div>
+      <div class="filter-group">
+        <h4>Rating</h4>
+        <label><input type="radio" name="rating" value="4"> 4 stars & above</label>
+        <label><input type="radio" name="rating" value="3"> 3 stars & above</label>
+        <label><input type="radio" name="rating" value="2"> 2 stars & above</label>
+      </div>
+    </aside>
+
+    <!-- Product Listing -->
+    <section class="product-listing">
+      <h2>Products</h2>
+      <div class="products-grid">
+        <!-- Product Card 1 -->
+        <div class="product-card">
+          <img src="./image1.png" alt="Product Image">
+          <h4>Product Name 1</h4>
+          <p>$99.99</p>
+          <div class="product-actions">
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+          </div>
+        </div>
+
+        <!-- Product Card 2 -->
+        <div class="product-card">
+          <img src="./image2.png" alt="Product Image">
+          <h4>Product Name 2</h4>
+          <p>$89.99</p>
+          <div class="product-actions">
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+          </div>
+        </div>
+
+        <!-- Product Card 3 -->
+        <div class="product-card">
+          <img src="./image3.png" alt="Product Image">
+          <h4>Product Name 3</h4>
+          <p>$79.99</p>
+          <div class="product-actions">
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+          </div>
+        </div>
+
+        <!-- Product Card 4 -->
+        <div class="product-card">
+          <img src="./image4.png" alt="Product Image">
+          <h4>Product Name 4</h4>
+          <p>$109.99</p>
+          <div class="product-actions">
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+          </div>
+        </div>
+
+       
+
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>

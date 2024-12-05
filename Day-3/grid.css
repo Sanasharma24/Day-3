@@ -1,0 +1,44 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Light grey background */
+  }
+  
+  /* Container for the matrix */
+  .container {
+    background-color: #fff; /* White background for the matrix */
+    padding: 10px;
+    border: 2px solid #000; /* Black border around the matrix */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  }
+  
+  /* Matrix grid layout */
+  .matrix {
+    display: grid; /* Use CSS Grid */
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 5px; /* Small gap between cells */
+    width: 300px; /* Total matrix width */
+  }
+  
+  /* Individual cell styles */
+  .cell {
+    border: 1px solid #ccc; /* Light grey border for cells */
+    display: flex; /* Center content */
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; /* White cell background */
+  }
+  
+  /* Image styles */
+  .cell img {
+    width: 100%; /* Ensure the image fills the cell */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Crop images to fit cell if needed */
+    border-radius: 5px; /* Optional: rounded corners */
+  }
+  
